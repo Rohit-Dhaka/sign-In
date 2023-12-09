@@ -1,0 +1,37 @@
+:root{
+    --fs-sm: 14px;
+    --fs-md:32px;
+
+
+    --black: #030712;
+    --primary-blue: #2563EB;
+    --text-color-grey: #62656D;
+    --white: #fff;
+    --light-gray:#C9CFDB;
+    --text-color-bar-text-icon-color: #9197A6;
+}
+
+.fs-sm{
+    font-size: var(--fs-sm);
+}
+.fs-md{
+    font-size: var(--fs-md);
+}
+.color-grey{
+    color: var(--text-color-grey);
+}
+.color-black{
+    color: var(--black);
+}
+.color-blue{
+    color: var(--primary-blue);
+}
+.bg-white{
+    background-color: var(--white);
+}
+.color-white{
+    color: var(--white);
+}
+.text-icon-color{
+    color: var(--text-color-bar-text-icon-color);
+}

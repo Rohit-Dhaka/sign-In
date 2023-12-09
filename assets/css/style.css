@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url(./root.css);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box !important;
+    list-style: none !important;
+    text-decoration: none !important;
+}
+/* ----------------font-family------------------------ */
+.f-f-poppins {
+    font-family: 'Poppins';
+}
+.f-f-lato {
+    font-family: 'Lato', sans-serif;
+}
+/* ----------------font-family------------------------ */
+/* ----------------font-weight------------------------ */
+.fw-400 {
+    font-weight: 400;
+}
+.fw-600 {
+    font-weight: 600;
+}
+/* ----------------font-weight------------------------ */
+/* ----------------line-height------------------------ */
+.line-height-20 {
+    line-height: 20px;
+}
+.line-height-24 {
+    line-height: 24px;
+}
+.line-height-135 {
+    line-height: 135%;
+}
+.line-height-150 {
+    line-height: 150%;
+}
+/* ----------------line-height------------------------ */
+/* ----------------margin------------------------ */
+.mt-10 {
+    margin-top: 10px;
+}
+.mt-20 {
+    margin-top: 20px !important;
+}
+.mt-24 {
+    margin-top: 24px;
+}
+.mt-32 {
+    margin-top: 32px;
+}
+.mt-48 {
+    margin-top: 48px;
+}
+.mt-19{
+    margin-top: -19px ;
+}
+.mr-6{
+    margin-right: -6px;
+}
+.mr-40{
+    margin-right: -40px !important;
+}
+/* ----------------margin------------------------ */
+.container {
+    max-width: 1440px !important;
+}
+.font-style-normal {
+    font-style: normal;
+}
+.border-radius-6 {
+    border-radius: 6px;
+}
+.input-box {
+    padding: 10px 16px;
+    border: 1px solid #E4EAF7;
+}
+.gap-10 {
+    gap: 10px;
+}
+.outline-none {
+    outline: none;
+}
+.btn-1 {
+    border-radius: 50px;
+    background: var(--Linear, linear-gradient(84deg, #2194FF 10.02%, #2563EB 90.05%));
+    padding: 14px 0;
+    transition:  all 300ms linear;
+}
+.btn-1:hover{
+    box-shadow: 0px 3px 10px var(--primary-blue);
+}
+.max-w-340 {
+    max-width: 340px !important;
+    width: 100%;
+}
+.line {
+    max-width: 1i0.001px;
+    width: 100%;
+    height: 1px;
+    background-color: var(--light-gray);
+}
+.btn-2 {
+    padding: 10px 0;
+    border: 1px solid var(--light-gray);
+    transition:  all 300ms linear;
+}
+.btn-2:hover{
+    background-color: var(--primary-blue) !important;
+    color: var(--white) !important;
+}
+.bg-image {
+    background-image: url(../image/background-image.webp);
+    background-size: cover;
+    background-position: center;
+}
+.bg-blue-image {
+    background-image: url(../image/bg-blue.webp);
+    background-size: cover;
+    background-position: center;   
+}
+.icon{   
+    background-color: var(--white);
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+}
+
