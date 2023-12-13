@@ -52,10 +52,7 @@
 }
 .mt-48 {
     margin-top: 48px;
-}
-.mt-19{
-    margin-top: -19px ;
-}
+}    
 .mr-6{
     margin-right: -6px;
 }
@@ -131,6 +128,10 @@
     position: absolute;
     right: 0;
     bottom: 0;
+}
+.max-h-332{
+    max-height: 380px;
+    height: 100vh;
 }
 @media (min-width:992px) { 
     .bg-box{
